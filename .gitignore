@@ -1,0 +1,9 @@
+*
+
+# Unignores
+!.gitignore
+!text-example/
+!text-example/*
+!text-example/**/*
+!json-example/
+!json-example/*
