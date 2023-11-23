@@ -1,0 +1,85 @@
+img {
+    max-width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+#btn {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    background: linear-gradient(to bottom, #4e4e4e 0%,#2b2b2b 100%);
+    color: #fff;
+    font-size: 2rem;
+}
+
+#btn:hover {
+    background: linear-gradient(to bottom, #2b2b2b 0%,#4e4e4e 100%);
+    cursor: pointer;
+}
+
+#users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 600px;
+    padding: 0 1rem;
+    border: 1px solid #2b2b2b;
+    background: linear-gradient(to bottom, #4e4e4e 0%,#2b2b2b 100%);
+    color: #fff;
+}
+
+.user img {
+    border-radius: 50%;
+    margin: 1.25rem auto;
+}
+
+.user p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.user a {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    background: linear-gradient(to bottom, #191919 0%,#3f3e3e 100%);
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.user a:hover {
+    background: linear-gradient(to bottom, #3f3e3e 0%,#191919 100%);
+    text-decoration: underline;
+    cursor: pointer;
+}
